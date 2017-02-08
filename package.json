@@ -39,13 +39,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/scriptype/sh-task-wrapper.git"
+    "url": "git+https://github.com/scriptype/salinger-integration.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/scriptype/sh-task-wrapper/issues"
+    "url": "https://github.com/scriptype/salinger-integration/issues"
   },
-  "homepage": "https://github.com/scriptype/sh-task-wrapper#readme"
+  "homepage": "https://github.com/scriptype/salinger-integration#readme"
 }
