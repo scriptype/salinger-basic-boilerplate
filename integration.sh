@@ -1,4 +1,4 @@
-git clone https://github.com/scriptype/salinger.git __temp_clone__
+git clone https://github.com/scriptype/salinger-integration.git __temp_clone__
 cp -R __temp_clone__/run run
 node -e "\
   var fs = require('fs'); \

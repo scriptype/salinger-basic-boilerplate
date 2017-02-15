@@ -1,5 +1,5 @@
 var path = require('path')
-var run = require('./lib/run')
+var run = require('salinger').run
 
 module.exports = {
   start() {

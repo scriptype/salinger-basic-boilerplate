@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "config": {
+    "salinger-home": "run"
+  },
   "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^6.7.0",
@@ -18,24 +21,25 @@
     "livereload": "^0.6.0",
     "postcss-cli": "^2.6.0",
     "postcss-import": "^9.1.0",
+    "salinger": "^2.1.3",
     "uglifyjs": "^2.4.10",
     "watch": "^1.0.1",
     "watchify": "^3.9.0"
   },
   "scripts": {
-    "start": "node run start",
-    "release": "node run release",
-    "clean": "node run clean",
-    "kill": "node run kill",
-    "server": "node run server",
-    "handlebars": "node run handlebars",
-    "js": "node run js",
-    "watch_js": "node run watch_js",
-    "watch_static": "node run watch_static",
-    "copy_static": "node run copy_static",
-    "post_html": "node run post_html",
-    "post_js": "node run post_js",
-    "post_css": "node run post_css"
+    "start": "salinger start",
+    "release": "salinger release",
+    "clean": "salinger clean",
+    "kill": "salinger kill",
+    "server": "salinger server",
+    "handlebars": "salinger handlebars",
+    "js": "salinger js",
+    "watch_js": "salinger watch_js",
+    "watch_static": "salinger watch_static",
+    "copy_static": "salinger copy_static",
+    "post_html": "salinger post_html",
+    "post_js": "salinger post_js",
+    "post_css": "salinger post_css"
   },
   "repository": {
     "type": "git",
