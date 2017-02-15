@@ -1,4 +1,4 @@
-![Salinger](https://github.com/scriptype/salinger/blob/master/salinger-small.png?raw=true)
+![Salinger](https://github.com/scriptype/salinger-basic-boilerplate/blob/master/salinger-small.png?raw=true)
 
 > Ready to use Salinger boilerplate with basic features
 
