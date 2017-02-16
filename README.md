@@ -2,6 +2,12 @@
 
 > Ready to use Salinger boilerplate with basic features
 
+This boilerplate have some basic and kickstarter features. But nothing too specific or comprehensive.
+
+Actually, it's just [Makefile for the Front End](https://github.com/scriptype/Makefile-for-the-Front-End) rewritten using [Salinger](https://github.com/scriptype/salinger). The boilerplate's features are well-explained [there](https://github.com/scriptype/Makefile-for-the-Front-End), please check it out.
+
+Customization is trivial.
+
 ## Start a new project
 
 ```sh
