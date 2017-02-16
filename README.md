@@ -15,10 +15,10 @@ npm start
 
 You can try Salinger in an existing project by running the below script in the root directory of the project.
 
-Before running this, I suggest checking the [package.json](https://github.com/scriptype/salinger-basic-boilerplate/blob/master/package.json). If some keys in `scripts` or `devDependencies` fields have different values in your own `package.json`, then you may want to keep a copy of them, because they will be overriden. Most likely: `start`.
+The below script will make changes in the existing package.json. Some of your `scripts` and `devDependencies` can be overriden if they have the same keys as in the boilerplate's [package.json](https://github.com/scriptype/salinger-basic-boilerplate/blob/master/package.json). So, I recommend keeping a copy of your package.json.
 
 ```sh
 curl https://raw.githubusercontent.com/scriptype/salinger-basic-boilerplate/master/integration.sh | sh
 ```
 
-This integration script will look for an existing `package.json`, so you should have one. Then, it will add the required keys to the `config`, `scripts` and `devDependencies` fields in the `package.json` and copy the boilerplate code into `run` folder.
+This will extend the `config`, `scripts` and `devDependencies` of the `package.json` and copy the boilerplate code into `run` folder. If package.json isn't found, it won't work.
