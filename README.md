@@ -30,3 +30,12 @@ curl https://raw.githubusercontent.com/scriptype/salinger-basic-boilerplate/mast
 ```
 
 This will extend the `scripts` and `devDependencies` of the `package.json` and copy the boilerplate code into `scripts` folder. If package.json isn't found, it won't work.
+
+After the integration, scripts will look for files with these paths to exists:
+```
+src/index.html
+src/js/app.js
+src/static/stylesheets/style.css
+```
+
+Either update the corresponding variables in `scripts/env.js` or simply touch these files.
