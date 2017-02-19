@@ -11,7 +11,7 @@ const HTML_OUTPUT = path.join(DIST, 'index.html')
 
 const JS_FULL_NAME = 'app.js'
 const JS_MIN_NAME = 'app.min.js'
-const JS_INPUT_PATH = path.join(SRC, 'scripts', JS_FULL_NAME)
+const JS_INPUT_PATH = path.join(SRC, 'js', JS_FULL_NAME)
 const JS_OUTPUT_PATH = path.join(DIST, JS_FULL_NAME)
 const JS_MIN_PATH = path.join(DIST, JS_MIN_NAME)
 
