@@ -1,6 +1,8 @@
-![Salinger](https://github.com/scriptype/salinger-basic-boilerplate/blob/master/salinger-small.png?raw=true)
+![Salinger](salinger-small.png?raw=true)
 
 > Ready to use Salinger boilerplate with basic features
+
+![Tasks screenshot](tasks.png?raw=true)
 
 This boilerplate have some basic and kickstarter features. Nothing too specific or comprehensive.
 
