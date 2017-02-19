@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "config": {
-    "salinger-home": "run"
-  },
   "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^6.7.0",
