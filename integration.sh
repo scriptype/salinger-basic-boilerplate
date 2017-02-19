@@ -1,12 +1,11 @@
 git clone https://github.com/scriptype/salinger-basic-boilerplate.git __temp_clone__
-cp -R __temp_clone__/run run
+cp -R __temp_clone__/scripts scripts
 node -e "\
   var fs = require('fs'); \
   var srcPackage = require('./__temp_clone__/package.json'); \
-  var { config, scripts, devDependencies } = srcPackage; \
+  var { scripts, devDependencies } = srcPackage; \
   var targetPackage = require('./package.json'); \
   var newPackage = Object.assign({}, targetPackage, { \
-    config: Object.assign({}, targetPackage.config, config), \
     scripts: Object.assign({}, targetPackage.scripts, scripts), \
     devDependencies: Object.assign({}, targetPackage.devDependencies, devDependencies) \
   }); \
