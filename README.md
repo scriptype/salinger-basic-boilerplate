@@ -6,7 +6,7 @@
 
 This boilerplate have some basic and kickstarter features. Nothing too specific or comprehensive.
 
-Actually, it's just [Makefile for the Front End](https://github.com/scriptype/Makefile-for-the-Front-End) rewritten using [Salinger](https://github.com/scriptype/salinger). The boilerplate's features are well-explained [there](https://github.com/scriptype/Makefile-for-the-Front-End), please check it out.
+Actually, it's just [Makefile for the Front End](https://github.com/scriptype/Makefile-for-the-Front-End) rewritten using [Salinger](https://github.com/scriptype/salinger). The boilerplate's features are [well-explained there](https://github.com/scriptype/Makefile-for-the-Front-End), please check it out.
 
 Customization is trivial.
 
