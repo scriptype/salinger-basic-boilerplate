@@ -1,1 +1,1 @@
-export default 'bye'
+export default 'hello'
