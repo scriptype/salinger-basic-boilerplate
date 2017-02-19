@@ -27,4 +27,4 @@ The below script will make changes in the existing package.json. Some of your `s
 curl https://raw.githubusercontent.com/scriptype/salinger-basic-boilerplate/master/integration.sh | sh
 ```
 
-This will extend the `config`, `scripts` and `devDependencies` of the `package.json` and copy the boilerplate code into `run` folder. If package.json isn't found, it won't work.
+This will extend the `scripts` and `devDependencies` of the `package.json` and copy the boilerplate code into `scripts` folder. If package.json isn't found, it won't work.
