@@ -1,1 +1,1 @@
-livereload $DIST
+livereload $DIST --wait 1000
