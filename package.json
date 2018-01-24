@@ -25,7 +25,7 @@
   },
   "scripts": {
     "start": "salinger start",
-    "release": "salinger release",
+    "release": "NODE_ENV=production salinger release",
     "clean": "salinger clean",
     "kill": "salinger kill",
     "server": "salinger server",
